@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html, body { 
+  min-height: 100%; 
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 60px;
+    padding-top: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+.btn-custom {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #3498DB;
+    border: 0;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(./img/background-mobile.jpg);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(./img/background-tablet.jpg);
+    }
+}
+
+@media (min-width: 1025px) {
+	body {
+		background-image: url(./img/background-desktop.jpg);
+	}
+}
